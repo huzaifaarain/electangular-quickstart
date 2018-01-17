@@ -17,3 +17,6 @@ npm start
 ## License
 
 [MIT](LICENSE.md)
+
+Regards
+Huzaifa Arain
