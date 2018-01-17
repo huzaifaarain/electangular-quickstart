@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Electangular kickstart !</title>
+</head>
+
+<body ng-app="elApp">
+  <div ng-controller="mainCtrl">
+    <a href="/">Home</a>
+    <a href="/about">About Us</a>
+  </div>
+  <div ng-view></div>
+  <script>
+    // You can also require other files to run in this process
+    // require('./renderer.js');
+  </script>
+  <script src="appKernel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+{
+  "name": "electangular-quickstart",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "gulp && electron ."
+  },
+  "repository": "https://github.com/huzaifaarain/electangular-quickstart",
+  "keywords": [
+    "Electron",
+    "AngularJS",
+    "boilerplate",
+    "quickstart",
+    "kickstart",
+    "electron with angularjs"
+  ],
+  "author": "Huzaifa Arain",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-ng-annotate": "^2.1.0",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "debug": "^3.1.0",
+    "electron-tabs": "^0.9.0",
+    "jquery": "^3.2.1",
+    "mysql": "^2.15.0",
+    "pump": "^2.0.0",
+    "underscore": "^1.8.3"
+  }
+}
